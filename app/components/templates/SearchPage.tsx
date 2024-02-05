@@ -8,7 +8,7 @@ const SearchPage = async () => {
 
   return (
     <Fragment>
-      <div>
+      <div className="py-8 grid grid-cols-1 gap-8 container">
         {searchResultData.map((listing) => (
           <ListingCard
             key={listing.title}
